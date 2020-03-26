@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24 JS</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <style>
+        @font-face {
+            font-family: "Roboto Mono";
+            src: url("style/fonts/RobotoMono-Regular.ttf");
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: "Roboto Mono";
+            src: url("style/fonts/RobotoMono-Light.ttf");
+            font-weight: 300;
+        }
+
+        @font-face {
+            font-family: "Roboto Mono";
+            src: url("style/fonts/RobotoMono-Bold.ttf");
+            font-weight: bold;
+        }
+
+        * {
+            font-family: "Roboto Mono";
+            color: white;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+
+    <div class="container">
+        <header class="row flex-column align-content-center header m-5 text-center">
+
+            <h1 class="display-3">
+                HomeWork №24
+            </h1>
+            <h2 class="font-weight-light">
+                Made by Yurii
+            </h2>
+
+        </header>
+
+        <div class="row justify-content-center">
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func1()">Task
+                    1</button>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func2()">Task
+                    2</button>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func3()">Task
+                    3</button>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func4()">Task
+                    4</button>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func5()">Task
+                    5</button>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func6()">Task
+                    6</button>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func7()">Task
+                    7</button>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func8()">Task
+                    8</button>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func9()">Task
+                    9</button>
+            </div>
+            <div class="col-sm-4 col-md-3 col-lg-2 col-6 mb-3">
+                <button type="button" class="btn btn-outline-info btn-block btn-lg pt-4 pb-4" onclick="func10()">Task
+                    10</button>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-6">
+                <h2 class="font-weight-light">
+                    Output:
+                </h2>
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-outline-danger btn-lg float-right" onclick="ClearOut()">Clear
+                    Output</button>
+            </div>
+
+            <div class="jumbotron w-100 text-dark p-3 m-3" id="consol">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script/func.js"></script>
+</body>
+
+</html>
